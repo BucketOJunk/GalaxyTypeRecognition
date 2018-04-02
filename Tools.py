@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-
+#All methods previously mentioned in the main class, just ported over into an OOP friendly format
 class classification:
 
     def __init__(self):

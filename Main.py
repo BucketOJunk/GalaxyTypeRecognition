@@ -315,7 +315,7 @@ class App(Frame):
         exButton.pack()
 
     # -------------------------------------------------------------------------------------------------------------------
-    # Will be used for exporting data to file
+    # Saves the results to a file named after the date and time it was created
     # -------------------------------------------------------------------------------------------------------------------
     def save(self):
         timestr = time.strftime("%d %m %Y - %H %M")
